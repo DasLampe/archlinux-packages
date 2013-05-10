@@ -8,7 +8,7 @@ arch=(i686 x86_64)
 url="http://gitlab.org/"
 license=('MIT')
 install=gitlab.install
-depends=('gitlab-shell' 'ruby-bundler' 'python2')
+depends=('gitlab-shell' 'ruby-bundler' 'python2' 'libxml2' 'libxslt' 'icu')
 optdepends=(
 	'mysql: database backend'
 	'postgresql: database backend'
